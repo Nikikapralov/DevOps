@@ -1,0 +1,22 @@
+pwd = print working directory
+cd = change directory
+ls = list 
+~ = home
+../ = parent directory
+ls -r = reversed
+ls -l = list in a long way
+ls -p = define file types
+
+
+Some exercises:
+pwd
+cd ../
+cd tervel
+ls
+cd ~
+pwd
+ls mydir
+cd ./mydir
+cd ~
+ls -r
+

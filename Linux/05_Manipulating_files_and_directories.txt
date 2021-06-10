@@ -1,0 +1,4 @@
+touch filename = create a file
+rm filename = remove a file
+sudo mkdir name = make a new directory
+rm -rf name = remove directory

@@ -1,0 +1,27 @@
+ls -l = check permissions 
+*owner, group, public / rw = 6, r = 4, all = 7
+sudo chown root:name file = change owner
+sudo chmod 666 file = change permissions
+-R = recursively to all files in dir
+
+Exercises:
+Create a few files:
+touch file_1.txt file_2.txt file_3.py
+ls -l
+sudo chown root:root file_1.txt
+ls -l
+nano file_1.txt
+sudo chown root:tervel file_1.txt
+ls -l
+nano file_1.txt
+*write something in file now when the permissions are shared
+sudo chmod 644 file_1.txt
+ls -l
+nano file_1.txt
+*cannot access since permission was changed, grant permissions again
+sudo chmod 666 file_1.txt
+*grant permission to all files in a directory recursively
+sudo chmod -R 777 ./
+*change owner of all files in a dir recursively
+sudo chown -R tervel:root ./
+

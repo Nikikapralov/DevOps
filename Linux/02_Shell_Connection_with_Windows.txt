@@ -1,0 +1,10 @@
+sudo apt-get install openssh-server = install openssh on the linux machine
+sudo systemctl status ssh = check status if ssh connection is running
+
+CMD
+ssh -p 5522 name@localhost = connect to Linux machine from Windows PC
+through NAT
+
+
+*Make sure there is a NAT connection between the VM and the Host Machine,
+be sure to specify at which port, in our case port 22 TCP or 5522 for now.

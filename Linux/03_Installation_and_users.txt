@@ -1,0 +1,19 @@
+sudo apt-get install something = installs
+sudo apt-get remove something = uninstalls
+sudo apt-cache policy something = check what is installed
+sudo apt-cache search something = search for something
+su name = switch user
+sudo su = root user
+sudo dpkg -i path = install from downloaded installer
+
+
+
+Exercises:
+sudo apt-get install bluefish
+sudo apt-cache policy bluefish
+sudo apt-cache search python
+sudo apt-get install python3.9
+sudo apt-cache policy python3
+sudo apt-upgrade python3
+su nick
+sudo su
